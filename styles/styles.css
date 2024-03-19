@@ -154,7 +154,7 @@
     margin: 0 auto;
     padding: 16px;
     background-color: #fff;
-    width: 50%;
+    width: 30%;
     height: 500px;
     position: relative;
 }
@@ -167,6 +167,31 @@
     position: absolute;
     top: 24px;
     right: 24px;
+}
+
+.order-title {
+    font-size: large;
+}
+.modalin {
+    position: absolute;
+    top: 10%;
+    transform: translatey (-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+}
+
+
+.group-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    
+    
 }
 
 .list li {

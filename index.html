@@ -56,29 +56,54 @@
                 <button class="close-btn" data-modal-close>&times;</button>
                 
                 <section class="modalin">
+                    <p class="order-title">Leave your contacts and we will call you back</p>
                     <form 
-                    action=""
                     method="get"
                     name="signup_form"
                     autocomplete="on"
                     novalidate
                     >
-                
-                <label for="name">Name:</label>
-                        <input 
+                <div>
+                <label for="name" class="group-modal" >Name:</label>
+                        <input
                             type="text"
                             name="name"
                             id="name"
-                            required
-                            placeholder="Enter your name"
+                            autofocus
+                            required placeholder="Enter your name"
                          >   
-                <label for="email">Email</label>
+                </div>
+                <div>
+                <label for="phonenumber" class="group-modal" >Phone:</label>
+                        <input
+                            type="number" 
+                            name="phonenumber" 
+                            id="phonenumber" 
+                            required placeholder="Enter your number"
+                        >
+                </div>
+                <div>
+                <label for="email" class="group-modal" >Email:</label>
                         <input
                             type="email"
                             name="email"
                             id="email"
+                            required placeholder="Enter your email"
+                        >  
+                </div> 
+                <div>
+                <input>
+                <label for="comment" class="group-modal">Coment:</label>
+                    <input
+                            type="comment" 
+                            name="comment" 
+                            id="comment" 
+                            rows="5"
                             autocomplete="off"
-                        >             
+                            required placeholder="Comment"
+                    >
+                </div>
+                </div>
                         <input type="submit" value="send">
                     </form>
                 </section>
