@@ -190,8 +190,22 @@
     border-radius: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
-    
-    
+    position: relative;
+}
+
+.svg-name {
+    position: absolute;
+}
+
+
+
+.svg-mail {
+    position: absolute;
+    color: black;
+}
+
+.svg-phone {
+    position: absolute;
 }
 
 .list li {
