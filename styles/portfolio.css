@@ -267,3 +267,36 @@ color: var(--links-color);
     flex-direction: column;
     margin-left: 20px;
 }
+
+.subscribe-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+.subscribe-input {
+    background-color: transparent;
+    line-height: 2.5;
+    border-radius: 5px;
+    width: 150%;
+}
+
+.subscribe-form {
+    border: white;
+    border: 2px;
+    padding 10px;
+    justify-content: flex-end;
+}
+
+.subscribe {
+    background-color: #4D5AE5;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.subscribe-btn-icon {
+    width: 24px;
+    height: 20px;
+}
