@@ -237,15 +237,13 @@ color: var(--links-color);
     background-color: rgb(46, 23, 3);
     background: linear-gradient(90deg, rgba(46, 23, 3, 1) 77%, rgba(83, 54, 46, 1) 83%, rgba(23, 21, 18, 1) 94%), black;
     color: #F4F4FD;
-    padding: 94px;
+    padding: 30px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     width: 1200px;
+}    
     
-}
-
-
 .logo2::before {
     content: "Web";
     color: blue;
@@ -284,19 +282,25 @@ color: var(--links-color);
 }
 
 .subscribe-form {
-    border: white;
-    border: 2px;
+    border:2px white;
     padding 10px;
+    display: flex;
     justify-content: flex-end;
 }
 
 .subscribe {
     background-color: #4D5AE5;
     padding: 10px;
-    flex-direction: row;
+    display: flex;
+    align-items: center;
 }
 
 .subscribe-btn-icon {
     width: 24px;
     height: 20px;
+}
+
+.column {
+    flex: 1;
+    padding 10px;
 }
