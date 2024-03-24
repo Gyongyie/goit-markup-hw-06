@@ -370,15 +370,14 @@ width: 1400px;
 }
 
 .footer {
-    background: rgb(46, 23, 3);
+    background-color: rgb(46, 23, 3);
     background: linear-gradient(90deg, rgba(46, 23, 3, 1) 77%, rgba(83, 54, 46, 1) 83%, rgba(23, 21, 18, 1) 94%), black;
     color: #F4F4FD;
-    padding: 94px;
+    padding: 30px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-
-
-    
+    justify-content: space-between;
+    width: 
 }
 
 .logo2::before {
@@ -394,27 +393,21 @@ width: 1400px;
 .left-colum {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;   
+    margin-right: 20px;
 }
-    
+
 .right-colum {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;    
-
+    margin-left: 20px;
 }
-
-h2 {
-    weight 700;
-}
-
 
 .subscribe-item {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    
+
 }
 
 .subscribe-input {
@@ -425,16 +418,17 @@ h2 {
 }
 
 .subscribe-form {
-    border: white;
-        border: 2px;
-        padding 10px;
-        justify-content: flex-end;
+    border: 2px white;
+    padding 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .subscribe {
     background-color: #4D5AE5;
-    padding: 10px;
-    flex-direction: row;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .subscribe-btn-icon {

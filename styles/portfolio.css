@@ -301,6 +301,5 @@ color: var(--links-color);
 }
 
 .column {
-    flex: 1;
-    padding 10px;
+padding-left: 25px;
 }
